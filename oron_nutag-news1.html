@@ -1,0 +1,1236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЗИНДАА - Таныг тодорхойлно!</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/scrollbar.css" />
+</head>
+<body class="hidden xl:block">
+    <header class="relative text-white uppercase w-full" style="background-color: #001e46">
+        <!-- Top header menu -->
+        <div class="top pt-1 pb-2 ">
+            <div class="flex items-center justify-end w-auto px-8 xl:px-14">
+                <ul id="topmenu" class="top__menu mr-2 pt-1 float-right flex items-center w-auto h-auto">
+                    <li>
+                        <a href="#" class="top__title">
+                            <i class="fa fa-user-circle"></i>
+                            нийтлэлчид
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/TelevisionTv8/" class="top__title">
+                            <i class="fa fa-television"></i>
+                            тв8
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Ugluuniisonin/" class="top__title">
+                            өглөөний сонин
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="top__title">
+                            <i class="fa fa-microphone"></i>
+                            аудио зохиол
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="top__title">
+                            сэтгүүл
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="top__last-title">
+                            mobile tv
+                        </a>
+                    </li>
+
+                </ul>
+            
+                <div class="top__social -mr-1">
+                    <a href="https://www.facebook.com/zindaaofficial" class="top__social-face inline-block text-xs text-center w-4 h-4 ml-0.5 rounded-full" ><i class="fa fa-facebook"></i></a>
+                    <a href="https://twitter.com/zindaamnd" class="top__social-twit inline-block text-xs text-center w-4 h-4 ml-0.5 rounded-full" ><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCPMn5BDG9CJn1vnsnP-3zlQ" class="top__social-yout inline-block text-xs text-center w-4 h-4 ml-0.5 rounded-full" ><i class="fa fa-youtube"></i></a>
+                    <a href="https://rss.com" class="top__social-rss text-xs text-center inline-block w-4 h-4 ml-0.5 rounded-full"><i class="fa fa-rss"></i></a>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- Middle header -->
+        <div class="middle">
+            <div class="flex items-center w-auto px-8 xl:px-14">
+                <!-- Logo -->
+                <div class="middle__logo px-2 w-1/2 -mt-14 text-left">
+                    <a href="index.html"><img src="img/logo.png" class="h-18" />
+                    </a>
+                </div>
+
+                <!-- Date, Currency, Weather -->
+                <div class="w-1/2 flex items-center justify-end">
+                    <!-- Date -->
+                    <div class="middle__date my-8 mx-5 relative -top-0.5">
+                        <a href="#">
+                            <div class="middle__title">Лхагва</div>
+                            <div class="middle__text">2021.01.27</div>
+                        </a>
+                    </div>
+
+                    <!-- Currency -->
+                    <a href="#">
+                        <div class="middle__currency widget_box_ticker relative overflow-hidden my-8 mr-3 h-10 w-24 -top-0.5">
+                            <ul class="absolute">
+                                <li>
+                                    <div class="middle__title">
+                                    Евро	
+                                    </div>
+                                    <div class="middle__text">
+                                        <img src="img/flags/EUR.png" class="h-5 pr-2">3,439.33<i class="fa fa-caret-up pl-1 text-green-800"></i>	
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">ОХУ рубль
+                                    </div>
+                                    <div class="middle__text">
+                                        <img src="img/flags/RUB.png" class=" h-6 pr-2">37.53<i class="fa fa-caret-up pl-1 text-green-800"></i>	
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">БНХАУ юань</div>
+                                    <div class="middle__text">
+                                        <img src="img/flags/CNY.png" class=" h-6 pr-2">441.15<i class="fa fa-caret-up pl-1 text-green-800"></i>		
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">БНСУ вон</div>
+                                    <div class="middle__text">
+                                        <img src="img/flags/KRW.png" class=" h-6 pr-2">2.55<i class="fa fa-caret-down pl-1 text-red-600"></i>	
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">АНУ доллар</div>
+                                    <div class="middle__text">
+                                        <img src="img/flags/USD.png" class=" h-6 pr-2">2,850.08<i class="fa fa-caret-down pl-1 text-red-600"></i>	
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">Евро</div>
+                                    <div class="middle__text">
+                                        <img src="img/flags/EUR.png" class=" h-6 pr-1">3,439.33<i class="fa fa-caret-up pl-1 text-red-500"></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+
+                    <!-- Weather -->
+                    <a href="#">
+                        <div class="middle__weather widget_box_ticker relative overflow-hidden my-8 h-10 w-20 text-sm text-center -top-0.5">
+                            <ul class="absolute">		
+                                <li>
+                                    <div class="middle__title">Улаанбаатар</div>
+                                    <div class="middle__text">
+                                        <img src="img/weather/weather_5.png" class="h-5 pr-2">-10℃
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">
+                                        Дархан	
+                                    </div>
+                                    <div class="middle__text">
+                                        <img src="img/weather/weather_10.png" class="h-5 pr-2">-15℃
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">Замын-Үүд</div>
+                                    <div class="middle__text">
+                                        <img src="img/weather/weather_5.png" class="h-5 pr-2">-7℃
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">Сүхбаатар</div>
+                                    <div class="middle__text">
+                                        <img src="img/weather/weather_10.png" class="h-5 pr-2">-15℃
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="middle__title">Улаанбаатарт</div>
+                                    <div class="middle__text">
+                                        <img src="img/weather/weather_5.png" class="h-5 pr-2">-10℃
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom header menu -->
+
+        <section class="bottom w-full px-8 xl:px-14 flex items-center ">
+            <div class="w-full">
+                <ul class="bottom__menu relative flex items-center justify-start text-xs font-roboto text-left uppercase leading-none">
+                    <li>
+                        <a href="index.html" class="bottom__menu-name">эхлэл</a>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">улс төр</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-36">
+                            <li>
+                                <a href="#" class="bottom__menu-name">new 76</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">тойрог 76</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">ерөнхийлөгч</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">парламент</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">засгийн газар</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">намууд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">яамд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">гадаад харилцаа</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">элчин сайд ярьж байна</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">онцлох үгс</a>
+                            </li>
+                            <li>
+                            <a href="#" class="bottom__menu-name">сонгууль-2020</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">орон нутгийн сонгууль-2020</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">эдийн засаг</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-36">
+                            <li>
+                                <a href="#" class="bottom__menu-name">төсөв 21</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">ковид & эдийн засаг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">ковид & ярилцлага</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">санхүүгийн зах зээл</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">онцлох сэдэв</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">үүнийг хэрхэн бэлтгэдэг вэ?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">байр суурь</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">business talk</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">startup</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">компани</a>
+                            </li>
+                            <li>
+                            <a href="#" class="bottom__menu-name">тендер</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">инфографик</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">бизнес</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">нийгэм</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-36">
+                            <li>
+                                <a href="#" class="bottom__menu-name">ковид-19</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">боловсрол</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">эрүүл мэнд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">нийслэл</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">нитх-нздтг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">сайхан мэдээ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">олон өнгө</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">цахим чагнуур</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">хөдөө аж ахуй</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">байгаль орчин, аялал жуулчлал</a>
+                            </li>
+                            <li>
+                            <a href="#" class="bottom__menu-name">шинжлэх ухаан</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">сэтгүүл зүй</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">хяналт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">обег эмнэлэг зөвлөж байна</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">sm эмнэлэг зөвлөж байна</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">уул уурхай</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-32">
+                            <li>
+                                <a href="#" class="bottom__menu-name">экологийн цаг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">байгаль эх, хариуцлагатай уул уурхай</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">мегатөсөл</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">бүтээн байгуулалт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">эрчим хүч</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">хөрөнгө оруулалт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">экологи</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">дэлхийн зах зээл</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">хууль</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-28">
+                            <li>
+                                <a href="#" class="bottom__menu-name">эрэн сурвалжлах</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">халуун сэдэв</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">эрх зүй</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">баримт, тайлбар</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">хэргийн газраас</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">шүүхийн танхим</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">хавтаст хэрэг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">аудио | тагнуул-100</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">утаагүй мэдээ</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">дэлхий</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-36">
+                            <li>
+                                <a href="#" class="bottom__menu-name">хөрш орнууд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">дэлхийн тойм</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">asia today</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">сонин хачин</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">тэд бидний тухай</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">алдартнууд ба амьдралын дүрэм</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">байгаль орчин</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">халуун цэг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">улс төр & эдийн засаг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">шинжлэх ухаан & технологи</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">дуулиант сэдэв</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">энэ 7 хоногт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">тренд-2019</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">спорт</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-28">
+                            <li>
+                                <a href="#" class="bottom__menu-name">токио 2020</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">багийн спорт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">үндэсний спорт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">бөхийн төрлүүд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">тулааны спорт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">оюуны спорт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">өвлийн спорт</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">наадам 2020</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">наадам 2019</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">урлаг</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-28">
+                            <li>
+                                <a href="#" class="bottom__menu-name">урлагтай яриа</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">сонгодог урлаг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">утга зохиол</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">bookteller</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">cinema room</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">театр</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">хөгжим</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">дүрслэх урлаг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">review</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">quiz</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">podcast</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">тойм</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-36">
+                            <li>
+                                <a href="#" class="bottom__menu-name">2020</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">15 раунд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">"100 асуулт" нэвтрүүлэг</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">"ХХ" хөтөлбөр</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">хүүхдийн нэвтэрхий толь</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">өдрийн тойм</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">ярилцлага</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">сурвалжилга</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">нийтлэл</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">нийтлэл</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">7 хоногийн тойм</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">сэдэв</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">цуврал</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">тосон бумба</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="bottom__menu-name">gobi challenge</a>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">өдрийн хөтөч</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-28">
+                            <li>
+                                <a href="#" class="bottom__menu-name">зурхай</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">үйл явдал</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">долларын ханш</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">цаг агаар</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="bottom__menu-name">life style</a>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="oron_nutag.html" class="bottom__menu-first">орон нутаг</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-28">
+                            <li>
+                                <a href="#" class="bottom__menu-name">Архангай</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Баян-Өлгий</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Булган</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Баянхонгор</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">говь-алтай</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">говьсүмбэр</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">дархан-уул</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">дорнод</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">дорноговь</a>
+                            </li><li>
+                                <a href="#" class="bottom__menu-name">дундговь</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">завхан</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Орхон</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Өвөрхангай</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Өмнөговь</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Сэлэнгэ</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Төв</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Увс</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Ховд</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Хөвсгөл</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Хэнтий</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">Сүхбаатар</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">багануур</a>
+                            </li>   
+                        </ul>
+                    </li>
+                    <li class="bottom__dropdown">
+                        <a href="#" class="bottom__menu-name">зурхай</a>
+                        <ul class="bottom__menu-dropdown absolute hidden w-28">
+                            <li>
+                                <a href="#" class="bottom__menu-name">дорнийн зурхай</a>
+                            </li>
+                            <li>
+                                <a href="#" class="bottom__menu-name">өрнийн зурхай</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="search_wrapper" class="bottom__search flex items-center justify-end relative -top-0.5">
+                <form method="get" action="/news/search/" onsubmit="return ($('#search_value').val())?true:false" autocomplete="off">
+                    <input type="text" name="q" id="search_value" placeholder="Хайх..." value="" class="pl-2 text-xs font-roboto w-4/5">
+                    <button type="submit"><i class="fa fa-search h-4"></i></button>
+                </form>    
+            </div>    
+        </section>
+    </header>
+
+    
+    <div class="w-full px-8 xl:px-14">
+
+        <!-- Starting news section -->
+        <div class="grid grid-cols-12 scroll-wrapper" style="width: 1160px; height: 1230px;">
+    
+            <!-- Post Section -->
+            <div class="maincol6 col-span-9 relative pr-5 pl-2 scroll-content scroll-scrolly_visible overflow-scroll">
+
+                <!-- Banner -->
+                <div class="relative my-2.5">
+                    <div class="relative overflow-hidden">
+                        <div class="banner" style="transform: translate3d(0px, 0px, 0px); transition: all 0.25s ease 0s; width: 1666px;">
+                            <div class="banner__item mySlides" style="transform: translate3d(0px, 0px, 0px); width: 833px;
+                            ">
+                                    <a href="#" target="_blank">
+                                        <img src="img/Zindaa-1200x1331.png">
+                                    </a>
+                            </div>
+                            <div class="banner__item mySlides" style="transform: translate3d(0px, 0px, 0px); width: 833px;
+                            ">
+                                <a href="#" target="_blank">
+                                    <img src="img/A1_baner.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-center mt-1">
+                        <div class="dot"> <span onclick="currentSlide(1)"></span>
+                        </div>
+                        <div class="dot"> <span onclick="currentSlide(2)"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="font-light mb-2.5 text-4xl leading-10 font-opensans text-gray-700"> “Бүсээ чангалах” горимыг үл тоон Увсын ИТХ-ын дарга Ц.Батболд 80 саяар таблет авах тендер зарлажээ </h1>
+
+                <div class="other relative flex items-center pb-2.5 mb-2 border-b-2 border-main font-opensans text-lg leading-relaxed" style="width:833px">
+
+                    <div style="width:630px">
+                        <img src="img/user_icon.png" class="float-left mt-0.5 mr-2.5" style="width:45px">
+                        <div class="float-left text-gray-700">
+                            <div class>
+                                <a href="#">Э.Мөнхжин</a>
+                                <span> | Zindaa.mn</span> 
+                            </div>
+                            <span class="float-left font-opensans text-sm">
+                                <i class="fa fa-clock-o"></i>
+                                8 цагийн өмнө
+                            </span>
+                        </div>
+                    </div>
+                    <div>
+                        <a href="#" class="border-solid shadow-2xl text-white mr-2 mt-2 px-2.5 pt-0.5 pb-1" style="background-color: #4965A0; box-shadow: 2px 2px 4px 0px #7d7c7d; border-radius: 3px;">
+                            <i class="fa fa-facebook mr-1.5"></i>Хуваалцах
+                        </a>
+                        <a href="#" class="border-solid shadow-2xl text-white mr-2 mt-2 px-2.5 pt-0.5 pb-1" style="background-color: #55ACEE; box-shadow: 2px 2px 4px 0px #7d7c7d; border-radius: 3px;">
+                            <i class="fa fa-twitter mr-1.5"></i>Жиргэх
+                        </a>
+                    </div>
+                </div>
+
+                <div class="ml-24 mb-10" style="width: 732px; height:auto">
+                    <div class="inf"  style="width: 732px">
+
+                        <img src="img/c8fad180f30fde6ee177bb7e8f773bba.jfif" style=" width:732px; height:420px; margin-top: 20px"> 
+
+                        <blockquote class="inf__quote" style="background: #EDEDED;">
+                            <span>Цар тахлын эсрэг ажиллаж байгаа байгууллагаас бусад улсын болон орон нутгийн өмчит, өмчийн оролцоотой бүх байгууллага, аж ахуйн нэгжийг он дуустал хэмнэлтийн горимд шилжүүлэх шийдвэрийг Монгол Улсын Засгийн газраас гаргасан билээ.</span>
+                        </blockquote>
+
+                        <p class="inf__text">
+                            Энэ дагуу  үр ашиггүй зардлыг бууруулж, өгөөж бага  зардлуудыг  тэвчих замаар батлагдсан төсвөө 10-аас доошгүй хувь хэмнэх үүрэг  төрийн бүх шатны байгууллагад хамаатай.
+                        </p>
+                        <p class="inf__text">
+                            Гэтэл Увс аймгийн ИТХ-ын дарга Ц.Батболд улс даяараа бүсээ чангалж, зардлаа эрэмбэлж буй энэ үед  санал хураалтын программ хангамж бүхий Таблет худалдан авахаар тендер зарласан байх  юм.
+                        </p>
+                        <p class="inf__text">
+                            Өмнө нь аймгийн Засаг даргын орлогч байсан тэрбээр Иргэдийн хурлын даргын үүрэгт албыг хариуцан авахдаа хувийн эрх ашгийнхаа урд  иргэдийн эрх ашгийг тавина гэж хэлж байсан ч хэрэг дээрээ эсрэгээрээ үйлдэл хийж буйд олон нийт тун шүүмжлэлтэй хандаж байна.
+                        </p>
+                        <p class="inf__text">
+                            Түүний удирдаж буй ИТХ-аас 80 сая төгрөгөөр 41 таблет худалдан авах тендер зарласан мэдээлэл Төрийн худалдан авах ажиллагааны цахим системд байна.
+                        </p>
+
+                        <img src="img/Capture(207).jfif" style=" width:732px; height:136px; margin-top:20px"> 
+
+                        <p class="inf__text font-bold">
+                            Тэвчиж болох бүх зардлаа тэвч гээд байхад 80 сая төгрөгөөр таблет авч, ИТХ-ын төлөөлөгчдөд тарааж өгөх гээд буй энэ цагаа олоогүй үйлдлээ зогсоох, тендерийн мэдээллээ буцаан татах алхам хийхгүй байгаа нь үнэхээр хачирхалтай юм.
+                        </p>
+                        <br>
+                        <br>
+                    </div>
+
+                    <div class="other relative flex items-center pb-3 mb-2 border-b-2 border-main font-opensans text-lg leading-relaxed" style="width:732px">
+                        <div>
+                            <a href="#" class="border-solid shadow-2xl text-white mr-2 mt-2 px-2.5 pt-0.5 pb-1" style="background-color: #4965A0; box-shadow: 2px 2px 4px 0px #7d7c7d; border-radius: 3px;">
+                                <i class="fa fa-facebook mr-1.5"></i>Хуваалцах
+                            </a>
+                            <a href="#" class="border-solid shadow-2xl text-white mr-2 mt-2 px-2.5 pt-0.5 pb-1" style="background-color: #55ACEE; box-shadow: 2px 2px 4px 0px #7d7c7d; border-radius: 3px;">
+                                <i class="fa fa-twitter mr-1.5"></i>Жиргэх
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Холбоотой мэдээ -->
+                    <div class="connected">
+                        <div class="newsTitle text-xl " style="width: 732px;">
+                            <div class="newsTitle__text bg-white pr-5 -mb-1.5 mt-1.5" style="width: 160px;">Холбоотой мэдээ</div>
+                        </div>
+                    </div>
+
+                    <!-- Slides -->
+                    <div class="relative my-2.5">
+                        <div class="relative overflow-hidden">
+                            <div class="banner" style="transform: translate3d(0px, 0px, 0px); transition: all 1.5s ease 0s; width: 2932px;">
+                                <div class="border border-solid border-main2" style="transform: translate3d(0px, 0px, 0px); width: 236px; height: 240px;
+                                ">
+                                        <a href="#" target="_blank">
+                                            <div class="connected__image" style="background-image: url(img/b31a0a49a9fa0ba9f40db06434befa1c.jpg);">
+                                            </div>
+                                            <p class="connected__text">Хүнсний салбарын ажилчдыг ШИНЖИЛГЭЭНД ХАМРУУЛ…</p>
+                                            <span class="connected__date text-red-700">
+                                                <i class="fa fa-clock-o"></i>
+                                                5 минутын өмнө
+                                            </span>
+                                        </a>
+                                </div>
+                                <div class=" border border-solid border-main2 mx-3" style="transform: translate3d(0px, 0px, 0px); width: 236px; height: 240px;
+                                ">
+                                        <a href="#" target="_blank">
+                                            <div class="connected__image" style="background-image: url(img/322369d32bfbe29647bfdb55429e5a66.jpg);">
+                                            </div>
+                                            <p class="connected__text">Их Дуулга: Мөнгөн медальт Моллаин барилдааны …</p>
+                                            <span class="connected__date text-red-700">
+                                                <i class="fa fa-clock-o"></i>
+                                                10 минутын өмнө
+                                            </span>
+                                        </a>
+                                </div>
+                                <div class=" border border-solid border-main2" style="transform: translate3d(0px, 0px, 0px); width: 236px; height: 240px;
+                                ">
+                                        <a href="#" target="_blank">
+                                            <div class="connected__image" style="background-image: url(img/fe8148d867551fc4bae39847e06fcbac.jpg);">
+                                            </div>
+                                            <p class="connected__text">Сүхбаатар дүүргийн 22861 өрхөөс шинжилгээ авн…</p>
+                                            <span class="connected__date">
+                                                <i class="fa fa-clock-o"></i>
+                                                1 цагийн өмнө
+                                            </span>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-center mt-1">
+                            <div class="cursor-pointer inline-block rounded-md w-1.5 h-1.5 m-1 bg-main1"><span ></span>
+                            </div>
+                            <div class="dot"> <span ></span>
+                            </div>
+                            <div class="dot"> <span ></span>
+                            </div>
+                            <div class="dot"> <span></span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Comments -->
+                    <div class="comments border-t-2 border-gray-800 px-10">
+
+                        <!-- form -->
+                        <div class="">
+                            <h3 class="my-2.5 font-opensans text-2xl">Сэтгэгдэл (3)</h3>
+                            <form action="#" class="w-full" role="form" method="post" accept-charset="utf-8">
+                                <div class="form-group mt-2">
+                                    <input type="text" name="name" class="comments__form" placeholder="Нэр" maxlength="20">
+                                </div>
+                                <div class="form-group mt-2">
+                                    <textarea name="comment" cols="40" rows="2" placeholder="Сэтгэгдэл!" maxlength="600" class="comments__form" data-clear="on"></textarea>
+                                </div>
+                                <div class="relative px-1.5 mt-2 flex items-center w-full">
+                                    <button name="send" type="button" class="text-white font-opensans bg-main1 border-main1 rounded-md px-3 py-1.5 text-sm focus:outline-none" data-news-id="167958" id="saveComment">Илгээх</button>
+                                    <div class="ml-24 text-xs font-opensans w-4/5">Сэтгэгдэл бичихдээ хууль зүйн болон ёс суртахууны хэм хэмжээг хүндэтгэнэ үү. Хэм хэмжээг зөрчсөн сэтгэгдэлийг админ устгах эрхтэй.</div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Comments -->
+                        <div class="mb-2.5">
+                            <div class="relative mt-4 py-2.5 pr-3.5 border-b border-dashed border-main2">
+                                <span class="comments__commenter">зочин</span>
+                                <span class="comments__number">(103.57.93.191)</span>
+                                <span class="comments__date">
+                                    <i class="fa fa-clock-o"></i> 16 цагийн өмнө
+                                </span>
+                                <p class="comments__text">Бас л нэг шуналын тулам</p>
+
+                                <div class="comments__likes">
+                                    <a href="" class="like text-green-600 text-sm font-bold font-opensans">
+                                        <i class="fa fa-thumbs-up"></i> <span>0</span>
+                                    </a>
+                                    |
+                                    <a href="" class="like text-red-600    text-sm font-bold font-opensans">
+                                        <i class="fa fa-thumbs-down"></i> <span>0</span>
+                                    </a>
+
+                                </div>
+
+                            </div>
+                            <div class="relative mt-4 py-2.5 pr-3.5 border-b border-dashed  border-main2">
+                                <span class="comments__commenter">зочин</span>
+                                <span class="comments__number ">(64.119.20.162)</span>
+                                <span class="comments__date">
+                                    <i class="fa fa-clock-o"></i> 16 цагийн өмнө
+                                </span>
+                                <p class="comments__text">Зүгээр л ажлаа хийж болдоггүй ямар ч шуналын тулам болсон баагий нар төрд ажиллаад байгаа юм бэ дээ. Төсвөө тодотгомоор юм</p>
+
+                                <div class="comments__likes">
+                                    <a href="" class="like text-green-600 text-sm font-bold font-opensans">
+                                        <i class="fa fa-thumbs-up"></i> <span>1</span>
+                                    </a>
+                                    |
+                                    <a href="" class="like text-red-600    text-sm font-bold font-opensans">
+                                        <i class="fa fa-thumbs-down"></i> <span>0</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="relative mt-4 py-2.5 pr-3.5 border-b border-dashed  border-main2">
+                                <span class="comments__commenter ">зочин</span>
+                                <span class="comments__number">(103.23.50.131)</span>
+                                <span class="comments__date">
+                                    <i class="fa fa-clock-o"></i> 17 цагийн өмнө
+                                </span>
+                                <p class="comments__text">Арай л юмаа. Орон нутагт төсвийн зарцуулалт цадигаа алдаж байгаа юм байна даа</p>
+
+                                <div class="comments__likes">
+                                    <a href="" class="like text-green-600 text-sm font-bold font-opensans">
+                                        <i class="fa fa-thumbs-up"></i> <span>0</span>
+                                    </a>
+                                    |
+                                    <a href="" class="like text-red-600 text-sm font-bold font-opensans">
+                                        <i class="fa fa-thumbs-down"></i> <span>0</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Col -->
+            <div class="maincol1 col-span-3 relative overflow-visible -left-1.5 mt-2.5" style="width: 100%;"> 
+                <div class="sticky bottom-0"> 
+
+                    <!-- Banner -->
+                    <div class="relative overflow-hidden">
+                        <div class="banner mb-9" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 578px;" id="bannerA1">
+                            <div class="banner__item mySlides2" style="transform: translate3d(0px, 0px, 0px); width: 288px; height:166px;
+                            ">
+                                <a href="#" target="_blank">
+                                    <img src="img/sa4w7gvy1.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slides -->
+                    <div class="mb-2" style="width: 288px; height: 1025px;">
+                        <!-- Three icon button -->
+                        <div style="background-color: #c0c0c0;" id="home-left-tab-titles">
+                            <ul class="relative text-center text-white text-xl w-full cursor-pointer flex items-center justify-center">
+                                <li class="tab-title active w-24 inline-block">
+                                    <a href="#" class="">
+                                        <i class="fa fa-clock-o"></i>
+                                    </a>
+                                </li>
+                                <li class="tab-title w-24 inline-block">
+                                    <a href="#" class="">
+                                        <i class="fa fa-signal"></i>
+                                    </a>
+                                </li>
+                                <li class="tab-title w-24 inline-block">
+                                    <a href="#" class="">
+                                        <i class="fa fa-comments"></i>
+                                    </a>
+                                </li>
+                            </ul> 
+                        </div>
+                        
+                        <!-- Scroll content -->
+                        <div class="scroll-wrapper maincol1__news relative">
+                            <div class="scroll-content scroll-scrolly_visible maincol1__news" style="height: 980px;">
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/b586e29ac0c66643c41607ac8c557ec1.jpg);"></div>
+                                        Хамзат Чимаевын тулаан ковидын улмаас 3 дахь удаагаа хойшиллоо
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            6 секундын өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/edf5d352c8abf02a92481ad268809de3.jpg);"></div>
+                                        NBA: Нью-Йорк Никс лигийн хамгийн үнэтэй баг
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            11 минутын өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/026c69504b9322375b5a9ebed9f70f59.jpg);"></div>
+                                        Хоёрдугаар сарын 23 гэхэд нийслэлийн бүх өрхөөс ШИНЖИЛГЭЭ авч дуусгана
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            21 минутын өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/1971b5d85db0ae46061a6eb4050d7116.jpg);"></div>
+                                        <i class="fa fa-video-camera font-normal" style="color: #C70000;"></i>
+                                            Буриад найруулагч Төрийн дээд шагналаар шагнууллаа
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            1 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            2 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <!-- Banner3 -->
+                                <div class="banner" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 288px;" id="bannerA2">
+                                    <div class="" style="transform: translate3d(0px, 0px, 0px); width: 288px;
+                                    ">
+                                        <a href="#" target="_blank">
+                                            <img src="img/jjlvobyb1.jpg">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/19dc405a878ef8e6b12cf68d36f9f207.jpeg);"></div>
+                                        Токио-2021: Ёширо Мори эмэгтэйчүүдийг доромжилсон тул огцорлоо
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            2 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/4be2fb062411e0877405626ecf029807.jpg);"></div>
+                                        Александр Медведь 200 кг америк бөхийг ялсан түүх
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            2 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/4e7c0576000c330b1f4f5ed05b16dae2.jpg);"></div>
+                                        Заур Кабалоев Токиод Италийн төлөө барилдана
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            3 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/13e94e4c90903b3f1b9cf13d32f366b4.png);"></div>
+                                        Сүхбаатар дүүргийн ИТХ-ын дарга Б.Энхболд мэндчилгээ дэвшүүллээ
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            1 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            3 цагийн өмнө
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/388084dce5ac0ec7b3fb761fb78bc507.jpg);"></div>
+                                        Дэлхийн банк ВАКЦИН ХУДАЛДАЖ АВАХ 50.7 сая ам.долларын санхүүжилтийг б…
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            3 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/2181f903d87a3c12cc744c2dc96746b0.jpg);"></div>
+                                        <i class="fa fa-video-camera font-normal" style="color: #C70000;"></i>
+                                        УИХ-ын дарга Г.Занданшатар МЭНДЧИЛГЭЭ дэвшүүлэв
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            0 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            5 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/0e0ae9460f88b77c2727e69b19bf042f.jpg);"></div>
+                                        <i class="fa fa-camera font-normal" style="color: #C70000;"></i>
+                                        ФОТО СУРВАЛЖИЛГА: Хөл хорьсон ШИНИЙН НЭГЭН
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            3 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            5 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/344baeff4f02659df5dc90e07dd16ca3.jpg);"></div>
+                                        <i class="fa fa-video-camera font-normal" style="color: #C70000;"></i>
+                                        Л.Оюун-Эрдэнэ: Эх орон минь АЗИЙН ХҮЛЭГ УЛС болон хөгжих болтугайv
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            6 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            5 цагийн өмнө
+
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="maincol1__item-post">
+                                    <a href="#">
+                                        <div class="maincol1__img" style="background-image: url(img/17ee8578015f1b91b8ab628933355573.jpg);"></div>
+                                        <i class="fa fa-video-camera font-normal" style="color: #C70000;"></i>
+                                        Улаанбаатарт халдвар авсан хүний тоо 40-өөр нэмэгдлээ
+                                        <br>
+                                        <span class="maincol1__date">
+                                            <i class="fa fa-comments-o"></i>
+                                            2 | 
+                                            <i class="fa fa-clock-o">
+                                            </i>
+                                            6 цагийн өмнө
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer mt-10">
+        <div class="w-full px-8 xl:px-14">
+            <div class="border-t border-solid border-white pt-5 text-left leading-6">
+                <span class="">
+                    <a href="#">Сурталчилгаа байршуулах |</a>
+                    <a href="#">Холбоо барих |</a>
+                    <a href="#">Бидний тухай |</a>
+                    <a href="#">Лого татах	</a>
+                </span>
+                <div>Copyright © 2010 - 2021 Zindaa.mn   Developed by mCast LLC</div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Banner Script -->
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+
+          var slides1 = document.getElementsByClassName("mySlides1");
+          var dots1 = document.getElementsByClassName("dot1");
+          if (n > slides1.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides1.length}
+          for (i = 0; i < slides1.length; i++) {
+              slides1[i].style.display = "none";  
+          }
+          for (i = 0; i < dots1.length; i++) {
+              dots1[i].className = dots1[i].className.replace(" active", "");
+          }
+          slides1[slideIndex-1].style.display = "block";  
+          dots1[slideIndex-1].className += " active";
+
+          var slides2 = document.getElementsByClassName("mySlides2");
+          var dots2 = document.getElementsByClassName("dot2");
+          if (n > slides2.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides2.length}
+          for (i = 0; i < slides2.length; i++) {
+              slides2[i].style.display = "none";  
+          }
+          for (i = 0; i < dots2.length; i++) {
+              dots2[i].className = dots2[i].className.replace(" active", "");
+          }
+          slides2[slideIndex-1].style.display = "block";  
+          dots2[slideIndex-1].className += " active";
+        }
+
+        // $(document).ready(function() {
+        //     if ($('.stickit').length)
+        //         $('.stickit').theiaStickySidebar({
+        //             additionalMarginTop: 40
+        //         });
+        // }
+
+    </script>
+</body>
+</html>
